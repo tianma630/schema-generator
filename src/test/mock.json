@@ -1,0 +1,130 @@
+{
+  "tabs": [
+    {
+      "img": "https://gw.alicdn.com/tfs/TB1YyFKsET1gK0jSZFrXXcNCXXa-178-178.png",
+      "title": "手机",
+      "benefit": "https://gw.alicdn.com/tfs/TB1Bk.ssND1gK0jSZFKXXcJrVXa-1276-128.png",
+      "items": [
+        {
+          "imageSource": "https://gw.alicdn.com/tfs/TB1n_QKsUY1gK0jSZFCXXcwqXXa-200-200.png",
+          "exhibitText": "苹果",
+          "badgeImageSource": "https://gw.alicdn.com/tfs/TB1Ct6EsF67gK0jSZPfXXahhFXa-168-56.png",
+          "badgeImageWidth": 84,
+          "badgeImageHeight": 28,
+          "url": "https://www.taobao.com",
+          "log": "item123"
+        },
+        {
+          "imageSource": "https://gw.alicdn.com/tfs/TB1n_QKsUY1gK0jSZFCXXcwqXXa-200-200.png",
+          "exhibitText": "苹果1",
+          "url": "https://www.taobao.com"
+        },
+        {
+          "imageSource": "https://gw.alicdn.com/tfs/TB1n_QKsUY1gK0jSZFCXXcwqXXa-200-200.png",
+          "exhibitText": "苹果2",
+          "url": "https://www.taobao.com"
+        },
+        {
+          "imageSource": "https://gw.alicdn.com/tfs/TB1n_QKsUY1gK0jSZFCXXcwqXXa-200-200.png",
+          "exhibitText": "苹果3",
+          "url": "https://www.taobao.com"
+        },
+        {
+          "imageSource": "https://gw.alicdn.com/tfs/TB1n_QKsUY1gK0jSZFCXXcwqXXa-200-200.png",
+          "exhibitText": "苹果4",
+          "url": "https://www.taobao.com"
+        },
+        {
+          "imageSource": "https://gw.alicdn.com/tfs/TB1n_QKsUY1gK0jSZFCXXcwqXXa-200-200.png",
+          "exhibitText": "苹果5",
+          "url": "https://www.taobao.com"
+        }
+      ],
+      "log": "tab123"
+    },
+    {
+      "img": "https://gw.alicdn.com/tfs/TB1YyFKsET1gK0jSZFrXXcNCXXa-178-178.png",
+      "title": "手机手",
+      "benefit": "https://gw.alicdn.com/tfs/TB1DUIGsKT2gK0jSZFvXXXnFXXa-1276-128.png",
+      "items": [
+        {
+          "imageSource": "https://gw.alicdn.com/tfs/TB1n_QKsUY1gK0jSZFCXXcwqXXa-200-200.png",
+          "exhibitText": "苹果",
+          "badgeImageSource": "https://gw.alicdn.com/tfs/TB1Ct6EsF67gK0jSZPfXXahhFXa-168-56.png",
+          "badgeImageWidth": 84,
+          "badgeImageHeight": 28,
+          "url": "https://www.taobao.com"
+        },
+        {
+          "imageSource": "https://gw.alicdn.com/tfs/TB1n_QKsUY1gK0jSZFCXXcwqXXa-200-200.png",
+          "exhibitText": "苹果1",
+          "badgeImageSource": "https://gw.alicdn.com/tfs/TB1Ct6EsF67gK0jSZPfXXahhFXa-168-56.png",
+          "badgeImageWidth": 84,
+          "badgeImageHeight": 28,
+          "url": "https://www.taobao.com"
+        },
+        {
+          "imageSource": "https://gw.alicdn.com/tfs/TB1n_QKsUY1gK0jSZFCXXcwqXXa-200-200.png",
+          "exhibitText": "苹果2",
+          "url": "https://www.taobao.com"
+        }
+      ]
+    },
+    {
+      "img": "https://gw.alicdn.com/tfs/TB1YyFKsET1gK0jSZFrXXcNCXXa-178-178.png",
+      "title": "手机手机",
+      "benefit": "https://gw.alicdn.com/tfs/TB1DUIGsKT2gK0jSZFvXXXnFXXa-1276-128.png",
+      "items": [
+        {
+          "imageSource": "https://gw.alicdn.com/tfs/TB1n_QKsUY1gK0jSZFCXXcwqXXa-200-200.png",
+          "exhibitText": "苹果",
+          "badgeImageSource": "https://gw.alicdn.com/tfs/TB1Ct6EsF67gK0jSZPfXXahhFXa-168-56.png",
+          "badgeImageWidth": 84,
+          "badgeImageHeight": 28,
+          "url": "https://www.taobao.com"
+        },
+        {
+          "imageSource": "https://gw.alicdn.com/tfs/TB1n_QKsUY1gK0jSZFCXXcwqXXa-200-200.png",
+          "exhibitText": "苹果1",
+          "badgeImageSource": "https://gw.alicdn.com/tfs/TB1Ct6EsF67gK0jSZPfXXahhFXa-168-56.png",
+          "badgeImageWidth": 84,
+          "badgeImageHeight": 28,
+          "url": "https://www.taobao.com"
+        },
+        {
+          "imageSource": "https://gw.alicdn.com/tfs/TB1n_QKsUY1gK0jSZFCXXcwqXXa-200-200.png",
+          "exhibitText": "苹果2",
+          "url": "https://www.taobao.com"
+        }
+      ]
+    },
+    {
+      "img": "https://gw.alicdn.com/tfs/TB1YyFKsET1gK0jSZFrXXcNCXXa-178-178.png",
+      "title": "手机",
+      "benefit": "https://gw.alicdn.com/tfs/TB1DUIGsKT2gK0jSZFvXXXnFXXa-1276-128.png",
+      "items": [
+        {
+          "imageSource": "https://gw.alicdn.com/tfs/TB1n_QKsUY1gK0jSZFCXXcwqXXa-200-200.png",
+          "exhibitText": "苹果",
+          "badgeImageSource": "https://gw.alicdn.com/tfs/TB1Ct6EsF67gK0jSZPfXXahhFXa-168-56.png",
+          "badgeImageWidth": 84,
+          "badgeImageHeight": 28,
+          "url": "https://www.taobao.com"
+        },
+        {
+          "imageSource": "https://gw.alicdn.com/tfs/TB1n_QKsUY1gK0jSZFCXXcwqXXa-200-200.png",
+          "exhibitText": "苹果1",
+          "badgeImageSource": "https://gw.alicdn.com/tfs/TB1Ct6EsF67gK0jSZPfXXahhFXa-168-56.png",
+          "badgeImageWidth": 84,
+          "badgeImageHeight": 28,
+          "url": "https://www.taobao.com"
+        },
+        {
+          "imageSource": "https://gw.alicdn.com/tfs/TB1n_QKsUY1gK0jSZFCXXcwqXXa-200-200.png",
+          "exhibitText": "苹果2",
+          "url": "https://www.taobao.com"
+        }
+      ]
+    }
+  ]
+}

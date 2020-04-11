@@ -1,0 +1,15 @@
+{
+  "attrs": {
+    "imgUrl": "https://gw.alicdn.com/tfs/TB1gKCdxND1gK0jSZFsXXbldVXa-560-690.png",
+    "width": "560",
+    "height": "690",
+    "btnwidth": 405,
+    "btnheight": 100,
+    "btntop": 470,
+    "btnleft": 77.5,
+    "btnUrl": "https://gw.alicdn.com/tfs/TB1EPhLaKbviK0jSZFNXXaApXXa-505-100.png",
+    "bgColor": "rgba(0,0,0,0.7)",
+    "sceneCode": "abcdefg",
+    "delaySecond": 5
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Schema",
+  "type": "object",
+  "properties": {
+    "attrs": {
+      "title": "attrs",
+      "type": "object",
+      "properties": {
+        "imgUrl": {
+          "type": "string",
+          "title": "图片"
+        },
+        "width": {
+          "type": "string",
+          "title": "宽"
+        },
+        "height": {
+          "type": "string",
+          "title": "高"
+        },
+        "btnwidth": {
+          "type": "number",
+          "title": "btnwidth"
+        },
+        "btnheight": {
+          "type": "number",
+          "title": "btnheight"
+        },
+        "btntop": {
+          "type": "number",
+          "title": "btntop"
+        },
+        "btnleft": {
+          "type": "number",
+          "title": "btnleft"
+        },
+        "btnUrl": {
+          "type": "string",
+          "title": "btnUrl"
+        },
+        "bgColor": {
+          "type": "string",
+          "title": "背景色"
+        },
+        "sceneCode": {
+          "type": "string",
+          "title": "sceneCode"
+        },
+        "delaySecond": {
+          "type": "number",
+          "title": "delaySecond"
+        }
+      }
+    }
+  }
+}

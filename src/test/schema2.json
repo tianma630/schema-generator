@@ -1,0 +1,66 @@
+{
+  "title": "Schema",
+  "type": "object",
+  "properties": {
+    "config": {
+      "title": "config",
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "title": "title"
+        },
+        "items": {
+          "title": "items",
+          "type": "array",
+          "items": {
+            "title": "items_item",
+            "type": "object",
+            "properties": {
+              "img": {
+                "type": "string",
+                "title": "img"
+              },
+              "title": {
+                "type": "string",
+                "title": "title"
+              },
+              "price": {
+                "type": "string",
+                "title": "price"
+              },
+              "date": {
+                "type": "string",
+                "title": "date"
+              },
+              "id": {
+                "type": "number",
+                "title": "id"
+              },
+              "name": {
+                "type": "string",
+                "title": "name"
+              },
+              "time": {
+                "type": "string",
+                "title": "time"
+              }
+            }
+          }
+        },
+        "sceneCode": {
+          "type": "string",
+          "title": "sceneCode"
+        },
+        "url": {
+          "type": "string",
+          "title": "url"
+        },
+        "successTip": {
+          "type": "string",
+          "title": "successTip"
+        }
+      }
+    }
+  }
+}

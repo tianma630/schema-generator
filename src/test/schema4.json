@@ -1,0 +1,92 @@
+{
+  "title": "Schema",
+  "type": "object",
+  "properties": {
+    "tabs": {
+      "title": "tabs",
+      "type": "array",
+      "items": {
+        "title": "tabs_item",
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number",
+            "title": "id"
+          },
+          "name": {
+            "type": "string",
+            "title": "name"
+          },
+          "arg1": {
+            "type": "string",
+            "title": "arg1"
+          },
+          "items": {
+            "title": "items",
+            "type": "array",
+            "items": {
+              "title": "items_item",
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "title": "id"
+                },
+                "title": {
+                  "type": "string",
+                  "title": "title"
+                },
+                "price1": {
+                  "type": "number",
+                  "title": "price1"
+                },
+                "users": {
+                  "title": "users",
+                  "type": "array",
+                  "items": {
+                    "title": "users_item",
+                    "type": "object",
+                    "properties": {
+                      "userid": {
+                        "type": "number",
+                        "title": "userid"
+                      },
+                      "username": {
+                        "type": "string",
+                        "title": "username"
+                      },
+                      "age1": {
+                        "type": "number",
+                        "title": "age1"
+                      },
+                      "weight": {
+                        "type": "number",
+                        "title": "weight"
+                      },
+                      "age2": {
+                        "type": "number",
+                        "title": "age2"
+                      },
+                      "height": {
+                        "type": "number",
+                        "title": "height"
+                      }
+                    }
+                  }
+                },
+                "price2": {
+                  "type": "number",
+                  "title": "price2"
+                }
+              }
+            }
+          },
+          "arg2": {
+            "type": "string",
+            "title": "arg2"
+          }
+        }
+      }
+    }
+  }
+}

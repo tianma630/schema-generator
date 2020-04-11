@@ -1,0 +1,70 @@
+{
+  "title": "Schema",
+  "type": "object",
+  "properties": {
+    "tabs": {
+      "title": "tabs",
+      "type": "array",
+      "items": {
+        "title": "tabs_item",
+        "type": "object",
+        "properties": {
+          "img": {
+            "type": "string",
+            "title": "img"
+          },
+          "title": {
+            "type": "string",
+            "title": "title"
+          },
+          "benefit": {
+            "type": "string",
+            "title": "benefit"
+          },
+          "items": {
+            "title": "items",
+            "type": "array",
+            "items": {
+              "title": "items_item",
+              "type": "object",
+              "properties": {
+                "imageSource": {
+                  "type": "string",
+                  "title": "imageSource"
+                },
+                "exhibitText": {
+                  "type": "string",
+                  "title": "exhibitText"
+                },
+                "badgeImageSource": {
+                  "type": "string",
+                  "title": "badgeImageSource"
+                },
+                "badgeImageWidth": {
+                  "type": "number",
+                  "title": "badgeImageWidth"
+                },
+                "badgeImageHeight": {
+                  "type": "number",
+                  "title": "badgeImageHeight"
+                },
+                "url": {
+                  "type": "string",
+                  "title": "url"
+                },
+                "log": {
+                  "type": "string",
+                  "title": "log"
+                }
+              }
+            }
+          },
+          "log": {
+            "type": "string",
+            "title": "log"
+          }
+        }
+      }
+    }
+  }
+}
