@@ -105,3 +105,119 @@ schema -m ./mock.json -s ./schema.json --default
 2. 右键mock文件，选择schema生成器菜单即可
 
 ![use](https://gw.alicdn.com/tfs/TB1VGqxyuT2gK0jSZFvXXXnFXXa-1022-650.png)
+
+
+### demo
+
+mock.json
+
+```json
+{
+  "config": {
+    "title": "2月22日准点来拿, 务必赚够闲鱼币哦！",
+    "items": [
+      {
+        "img": "https://gw.alicdn.com/tfs/TB1UJtvu1L2gK0jSZFmXXc7iXXa-350-350.png",
+        "title": "iPhoneXS MAX一部",
+        "price": "5000万",
+        "date": "2月22日来拿",
+        "id": 1
+      },
+      {
+        "img": "https://gw.alicdn.com/tfs/TB1.MVuu5_1gK0jSZFqXXcpaXXa-350-350.png",
+        "title": "蓝漂4包本色抽纸",
+        "price": "2000",
+        "date": "2月22日来拿",
+        "name": "2j"
+      },
+      {
+        "img": "https://gw.alicdn.com/tfs/TB11phtu.T1gK0jSZFhXXaAtVXa-350-350.png",
+        "title": "闲鱼金条5g",
+        "price": "1000起拍",
+        "date": "2月22日来拿"
+      },
+      {
+        "img": "https://gw.alicdn.com/tfs/TB11FFwu.Y1gK0jSZFCXXcwqXXa-350-350.png",
+        "title": "迪士尼家庭门票",
+        "price": "100000",
+        "date": "2月22日来拿",
+        "time": "121212"
+      }
+    ],
+    "sceneCode": "IDLECOINDAY",
+    "url": "https://market.m.taobao.com/app/idleFish-F2e/idlefish-xycoin/pages/index?wh_weex=true",
+    "successTip": "预约成功，2月22日来领吗"
+  }
+}
+```
+
+schema.json
+```json
+{
+  "title": "Schema",
+  "type": "object",
+  "properties": {
+    "config": {
+      "title": "config",
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "title": "title"
+        },
+        "items": {
+          "title": "items",
+          "type": "array",
+          "items": {
+            "title": "items_item",
+            "type": "object",
+            "properties": {
+              "img": {
+                "type": "string",
+                "title": "img"
+              },
+              "title": {
+                "type": "string",
+                "title": "title"
+              },
+              "price": {
+                "type": "string",
+                "title": "price"
+              },
+              "date": {
+                "type": "string",
+                "title": "date"
+              },
+              "id": {
+                "type": "number",
+                "title": "id"
+              },
+              "name": {
+                "type": "string",
+                "title": "name"
+              },
+              "time": {
+                "type": "string",
+                "title": "time"
+              }
+            }
+          }
+        },
+        "sceneCode": {
+          "type": "string",
+          "title": "sceneCode"
+        },
+        "url": {
+          "type": "string",
+          "title": "url"
+        },
+        "successTip": {
+          "type": "string",
+          "title": "successTip"
+        }
+      }
+    }
+  }
+}
+
+```
