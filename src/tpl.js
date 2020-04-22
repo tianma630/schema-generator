@@ -1,4 +1,7 @@
-var template = require('art-template');
+/**
+ * 模块文件
+ */
+const template = require('art-template');
 
 const schemaRender = template.compile(`{
   "title": "Schema",

@@ -1,3 +1,6 @@
+/**
+ * title映射文件
+ */
 module.exports = {
   'id': '编号',
   'title': '标题',

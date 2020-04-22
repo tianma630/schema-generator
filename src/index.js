@@ -2,8 +2,8 @@
 
 var fs = require('fs-extra');
 var program = require('commander');
-var schemaGenerator = require('./ergodic');
-var deepAssign =  require('./deep-assign');
+var compile = require('./compile');
+var processData =  require('./process-data');
 
 program
   .version('0.1.0')
@@ -36,8 +36,8 @@ if (!schema) {
 
 const content = fs.readJsonSync(mock, 'utf-8');
 
-deepAssign(content);
+processData(content);
 
-fs.writeJSONSync(schema, JSON.parse(schemaGenerator(content, needTitle, needDefault)), {spaces: 2});
+fs.writeJSONSync(schema, JSON.parse(compile(content, needTitle, needDefault)), {spaces: 2});
 
 console.log('success !!')
